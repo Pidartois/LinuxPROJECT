@@ -1,3 +1,5 @@
+Pour les néophytes en [Markdown](https://www.markdownguide.org/basic-syntax/)
+
 # Descriptions des demandes :
 *Contexte client à ne pas prendre en compte, nous sommes ici pour prendre du plaisir/s'entrainer sur des technos qui pourront
 nous être utile*
@@ -35,7 +37,7 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
   * OS serveur : [__CentOS 7 1810__](http://repos-va.psychz.net/centos/7.6.1810/isos/x86_64/)
   * OS Client : [__Ubuntu 18.04.3 LTS__](https://ubuntu.com/download/desktop)
   * DNS  : [__PowerDNS__](https://doc.ubuntu-fr.org/pdns)
-  * LDAP : [__OpenLDAP__](https://guide.ubuntu-fr.org/server/openldap-server.html)
+  * LDAP : [__OpenLDAP__](https://guide.ubuntu-fr.org/server/openldap-server.html) ou [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide) en graphique
   * DHCP :
   * IPAM : [__PHP IPAM__](https://phpipam.net/news/tag/guide/) ou [__NETBOX__](https://computingforgeeks.com/how-to-install-netbox-on-centos-7-with-apache-and-supervisord/)
   * BDD : [__MariaDB__](https://linuxize.com/post/install-mariadb-on-centos-7/), même si [__Postgre__](https://www.hostinger.com/tutorials/how-to-install-postgresql-on-centos-7/) est de plus en plus demandé en entreprise

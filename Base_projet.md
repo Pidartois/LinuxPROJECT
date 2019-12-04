@@ -32,7 +32,8 @@ _Infra en 2 partie LAN/WAN :_
 
 Ici je détail les différentes techno que nous allons étudier/mettre en place pour ce labo
 * __Minimum attendu :__
-  * OS : CentOS 7 1810
+  * OS serveur : [__CentOS 7 1810__](http://repos-va.psychz.net/centos/7.6.1810/isos/x86_64/)
+  * OS Client : [__Ubuntu 18.04.3 LTS__](https://ubuntu.com/download/desktop)
   * DNS  : [__PowerDNS__](https://doc.ubuntu-fr.org/pdns)
   * LDAP : [__OpenLDAP__](https://guide.ubuntu-fr.org/server/openldap-server.html)
   * DHCP :
@@ -56,3 +57,27 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
 ## Carac des VMs
 
 Chaque VM contient 1 coeur, 1go de ram et 80go de DD
+
+## Diverses convention de nommage
+
+Nom de domaine : inline.corp
+
+Différentes IP : 192.168.x.x
+
+Nommage des machines : 
+
+Pour la convention de nommage de nos machines/VMs nous utiliserons la convention suivante : 
+
+Type de machine-Nom de domaine-Service ou numéro incrémentielle
+
+_Explications_ :
+
+Le type de machine : 2 types de machine sont dispo : __SRV__ pour les serveurs ou __CLI__ pour les utilisateurs finaux
+
+Nom de domaine : Le nom de domaine pour ce TP est Inline, nous utilisons donc le trigramme suivant : __INL__
+
+Service ou numéro incrémentielle : 
+
+* Ce trigramme sera utilisé de 2 façons différentes :
+  * Dans le cas des serveurs, ceux-ci sont dédiés à un type de service, le trigramme correspondra au service présent sur chaque serveur
+  * Dans le cas des machines clients, celle-ci sont génériques et ne seront donc différenciées que par un numéro incrémentiel qui commence a 001 et finit à 999

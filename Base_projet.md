@@ -39,7 +39,7 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
   * IPAM : [__PHP IPAM__](https://phpipam.net/news/tag/guide/) ou [__NETBOX__](https://computingforgeeks.com/how-to-install-netbox-on-centos-7-with-apache-and-supervisord/)
   * BDD : [__MariaDB__](https://linuxize.com/post/install-mariadb-on-centos-7/), même si [__Postgre__](https://www.hostinger.com/tutorials/how-to-install-postgresql-on-centos-7/) est de plus en plus demandé en entreprise
   * WEB : [__Nginx__](https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/) avec [__Wekan__](https://computingforgeeks.com/install-wekan-kanban-on-centos-7-nginx-letsencrypt/)
-  * NFS : 
+  * NFS : NFS Utils 
   * SSH (serveur de rebond) :
   * Sauvegarde : Script créé en cours et si logiciel on peut utiliser [__Borgbackup__](https://borgbackup.readthedocs.io/en/stable/installation.html)
   * Gestion de configuration :

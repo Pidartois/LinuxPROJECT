@@ -16,7 +16,7 @@ _Infra en 2 partie LAN/WAN :_
   * Aucun serveur du réseau local n'a directement accès a internet, les dépots seront stockés sur un serveur qui gérera le cache ( à configurer dans les sources.list des différents serveurs)
   * Outil de provisionnement
 * __Infra WAN :__
-  * Passerelle de sortie vers itnernet
+  * Passerelle de sortie vers internet
   * Serveur d'externalisation de sauvegarde (facultatif)
 * __Supervision :__
   * Solution capable de superviser la partie LAN/WAN (pas des terminaux)
@@ -37,9 +37,8 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
   * OS serveur : [__CentOS 7 1810__](http://repos-va.psychz.net/centos/7.6.1810/isos/x86_64/)
   * OS Client : [__Ubuntu 18.04.3 LTS__](https://ubuntu.com/download/desktop)
   * DNS  : [__PowerDNS__](https://doc.ubuntu-fr.org/pdns)
-  * LDAP : [__OpenLDAP__](https://guide.ubuntu-fr.org/server/openldap-server.html) ou [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide) en graphique
+  * LDAP : [__Zentyal__](https://guide.ubuntu-fr.org/server/openldap-server.html) ou [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide) en graphique
   * DHCP :
-  * IPAM : [__PHP IPAM__](https://phpipam.net/news/tag/guide/) ou [__NETBOX__](https://computingforgeeks.com/how-to-install-netbox-on-centos-7-with-apache-and-supervisord/)
   * BDD : [__MariaDB__](https://linuxize.com/post/install-mariadb-on-centos-7/), même si [__Postgre__](https://www.hostinger.com/tutorials/how-to-install-postgresql-on-centos-7/) est de plus en plus demandé en entreprise
   * WEB : [__Nginx__](https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/) avec [__Wekan__](https://computingforgeeks.com/install-wekan-kanban-on-centos-7-nginx-letsencrypt/)
   * NFS : 
@@ -83,3 +82,8 @@ Service ou numéro incrémentielle :
 * Ce trigramme sera utilisé de 2 façons différentes :
   * Dans le cas des serveurs, ceux-ci sont dédiés à un type de service, le trigramme correspondra au service présent sur chaque serveur
   * Dans le cas des machines clients, celle-ci sont génériques et ne seront donc différenciées que par un numéro incrémentiel qui commence a 001 et finit à 999
+  
+  ## Infra Finale
+  
+  Voici le visio de l'infrastructure final que nous allons utiliser 
+  https://user-images.githubusercontent.com/58468543/73590526-b7caaf00-44e3-11ea-8d55-fa1d940cfb94.png

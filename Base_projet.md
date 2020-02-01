@@ -36,7 +36,7 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
 * __Minimum attendu :__
   * OS serveur : [__CentOS 7 1810__](http://repos-va.psychz.net/centos/7.6.1810/isos/x86_64/)
   * OS Client : [__Ubuntu 18.04.3 LTS__](https://ubuntu.com/download/desktop)
-  * DNS  : [__PowerDNS__](https://doc.ubuntu-fr.org/pdns)
+  * DNS  : [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide)
   * LDAP : [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide)
   * DHCP : [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide)
   * BDD : [__MariaDB__](https://linuxize.com/post/install-mariadb-on-centos-7/)

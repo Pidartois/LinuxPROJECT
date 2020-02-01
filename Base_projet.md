@@ -37,7 +37,7 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
   * OS serveur : [__CentOS 7 1810__](http://repos-va.psychz.net/centos/7.6.1810/isos/x86_64/)
   * OS Client : [__Ubuntu 18.04.3 LTS__](https://ubuntu.com/download/desktop)
   * DNS  : [__PowerDNS__](https://doc.ubuntu-fr.org/pdns)
-  * LDAP : [__Zentyal__](https://guide.ubuntu-fr.org/server/openldap-server.html) ou [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide) en graphique
+  * LDAP : [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide)
   * DHCP :
   * BDD : [__MariaDB__](https://linuxize.com/post/install-mariadb-on-centos-7/), même si [__Postgre__](https://www.hostinger.com/tutorials/how-to-install-postgresql-on-centos-7/) est de plus en plus demandé en entreprise
   * WEB : [__Nginx__](https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/) avec [__Wekan__](https://computingforgeeks.com/install-wekan-kanban-on-centos-7-nginx-letsencrypt/)
@@ -86,4 +86,4 @@ Service ou numéro incrémentielle :
   ## Infra Finale
   
   Voici le visio de l'infrastructure final que nous allons utiliser 
-  https://user-images.githubusercontent.com/58468543/73590526-b7caaf00-44e3-11ea-8d55-fa1d940cfb94.png
+  ![alt tag](https://user-images.githubusercontent.com/58468543/73590526-b7caaf00-44e3-11ea-8d55-fa1d940cfb94.png)

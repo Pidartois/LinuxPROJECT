@@ -43,7 +43,7 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
   * WEB : [__Nginx__](https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/)
   * NFS : [__NFS Utils__](https://blog.microlinux.fr/serveur-nfs-centos/)
   * SSH (au travers d'un proxy) : [Proxy Command__](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/)
-  * Sauvegarde :[__Borgbackup__](https://borgbackup.readthedocs.io/en/stable/installation.html)
+  * Sauvegarde : [__Borgbackup__](https://borgbackup.readthedocs.io/en/stable/installation.html)
   * Gestion de configuration : [__Puppet__](https://puppet.com/try-puppet/puppet-enterprise/?ls=Campaigns&lsd=Paid-Search&cid=7010f00000232RV&utm_medium=paid-search&utm_campaign=Q3FY20_EMEA_SEMEA_DEMAND_SER_ADWRDS_pe-dwnld&utm_source=google&utm_content=pe-10-nodes&obility_id=78002805358&gclid=EAIaIQobChMIyMiM3Law5wIVw_ZRCh2MIA8FEAAYASAAEgLny_D_BwE)
 
 * __Services optionnels :__

@@ -38,13 +38,13 @@ Ici je détail les différentes techno que nous allons étudier/mettre en place 
   * OS Client : [__Ubuntu 18.04.3 LTS__](https://ubuntu.com/download/desktop)
   * DNS  : [__PowerDNS__](https://doc.ubuntu-fr.org/pdns)
   * LDAP : [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide)
-  * DHCP :
-  * BDD : [__MariaDB__](https://linuxize.com/post/install-mariadb-on-centos-7/), même si [__Postgre__](https://www.hostinger.com/tutorials/how-to-install-postgresql-on-centos-7/) est de plus en plus demandé en entreprise
-  * WEB : [__Nginx__](https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/) avec [__Wekan__](https://computingforgeeks.com/install-wekan-kanban-on-centos-7-nginx-letsencrypt/)
-  * NFS : 
-  * SSH (serveur de rebond) :
-  * Sauvegarde : Script créé en cours et si logiciel on peut utiliser [__Borgbackup__](https://borgbackup.readthedocs.io/en/stable/installation.html)
-  * Gestion de configuration :
+  * DHCP : [__Zentyal__](https://wiki.zentyal.org/wiki/Installation_Guide)
+  * BDD : [__MariaDB__](https://linuxize.com/post/install-mariadb-on-centos-7/)
+  * WEB : [__Nginx__](https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/)
+  * NFS : [__NFS Utils__](https://blog.microlinux.fr/serveur-nfs-centos/)
+  * SSH (au travers d'un proxy) : [Proxy Command__](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/)
+  * Sauvegarde :[__Borgbackup__](https://borgbackup.readthedocs.io/en/stable/installation.html)
+  * Gestion de configuration : [__Puppet__](https://puppet.com/try-puppet/puppet-enterprise/?ls=Campaigns&lsd=Paid-Search&cid=7010f00000232RV&utm_medium=paid-search&utm_campaign=Q3FY20_EMEA_SEMEA_DEMAND_SER_ADWRDS_pe-dwnld&utm_source=google&utm_content=pe-10-nodes&obility_id=78002805358&gclid=EAIaIQobChMIyMiM3Law5wIVw_ZRCh2MIA8FEAAYASAAEgLny_D_BwE)
 
 * __Services optionnels :__
   * FAil2ban
@@ -90,3 +90,7 @@ Service ou numéro incrémentielle :
   
 ## Explications technologie 
 
+_Rebond SSH_
+
+Le rebond SSH est là pour protéger les accès au serveur de back. Le rebond se fait par une machine dans une zone neutre qui peut communiquer sur les 2 plages IP avec 2 cartes réseau différentes. Cette machine sert de relais et de gestionnaire d'accès sans laisser filtrer les informations sensibles d'un côté comme de l'autre.
+![alt tag](https://user-images.githubusercontent.com/58468543/73590935-d0899380-44e8-11ea-92b9-28855a27d0cd.png)

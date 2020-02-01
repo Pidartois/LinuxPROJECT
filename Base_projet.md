@@ -83,7 +83,7 @@ Service ou numéro incrémentielle :
   * Dans le cas des serveurs, ceux-ci sont dédiés à un type de service, le trigramme correspondra au service présent sur chaque serveur
   * Dans le cas des machines clients, celle-ci sont génériques et ne seront donc différenciées que par un numéro incrémentiel qui commence a 001 et finit à 999
   
-  ## Infra Finale
+## Infra Finale
   
   Voici le visio de l'infrastructure final que nous allons utiliser 
   ![alt tag](https://user-images.githubusercontent.com/58468543/73590526-b7caaf00-44e3-11ea-8d55-fa1d940cfb94.png)

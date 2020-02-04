@@ -118,3 +118,19 @@ _Installation_
 ![alt tag](https://user-images.githubusercontent.com/58468543/73642926-e32fd400-4672-11ea-8019-864b703ae1bc.png)
 
 ![alt tag](https://user-images.githubusercontent.com/58468543/73642934-e6c35b00-4672-11ea-98ad-1c9caaf41850.png)
+
+Ici nous configurerons les noms d’hôtes de nos serveurs. 
+
+Ne pas oublier de faire le paramétrage sur les serveurs et les clients dans /etc/hostname., ainsi que dans le fichier /etc/resolv.conf afin de déclarer le domaine inline.corp et le contrôleur de domaine inline-dc01 associé à l’adresse IP 192.168.2.1/
+
+![alt tag](https://user-images.githubusercontent.com/58468543/73642944-e925b500-4672-11ea-87ca-2515dc61da97.png)
+
+Ici on renseignera les noms d’hôtes des serveurs avec leur adresse IP. Nous pouvons également configurer des alias. Exemple avec inline-ssh1 en ssh1.
+
+![alt_tag](https://user-images.githubusercontent.com/58468543/73642947-eb880f00-4672-11ea-8cd3-e8cff1cbb1b7.png)
+
+### Configuration interfaces réseau
+
+![alt_tag](https://user-images.githubusercontent.com/58468543/73642958-efb42c80-4672-11ea-9e76-e1007f9830c9.png)
+
+

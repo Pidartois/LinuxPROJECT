@@ -100,6 +100,15 @@ Le rebond SSH est là pour protéger les accès au serveur de back. Le rebond se
 _Installation_
 
 ![alt tag](https://user-images.githubusercontent.com/58468543/73642897-d7dca880-4672-11ea-8118-38c315dfee4c.png)
+
 1ere sélection des services après l’installation de la plateforme. Ici nous nous servirons de Zentyal en tant que serveur DNS, LDAP, Contrôleur de domaine et DHCP. Il y aura toujours la possibilité d’installer d’autres services par la suite.
+
 *Configuration matérielle de la machine :
-  * test
+  * -	20 GB stockage
+  * -	1024 Mo RAM
+  * -	1 carte réseau NAT pour accès à internet au démarrage 
+  * -	1 carte réseau pour joindre les clients ubuntu. Cette carte réseau permettra également de délivrer des adresses IP 
+  * -	Dynamiquement via le protocole DHCP. 
+  * -	1 carte réseau pour joindre les serveurs de l’infrastructure 
+  
+![alt tag](https://user-images.githubusercontent.com/58468543/73642909-dc08c600-4672-11ea-8498-16022cd49125.png)

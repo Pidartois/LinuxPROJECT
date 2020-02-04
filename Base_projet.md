@@ -95,6 +95,23 @@ _Rebond SSH_
 Le rebond SSH est là pour protéger les accès au serveur de back. Le rebond se fait par une machine dans une zone neutre qui peut communiquer sur les 2 plages IP avec 2 cartes réseau différentes. Cette machine sert de relais et de gestionnaire d'accès sans laisser filtrer les informations sensibles d'un côté comme de l'autre.
 ![alt tag](https://user-images.githubusercontent.com/58468543/73590935-d0899380-44e8-11ea-92b9-28855a27d0cd.png)
 
+## BDD
+
+_Présentation_
+
+L'outil MariaDB est là pour nous permettre de gérer la base de données qui vas nous servir à stocker les sauvegarde faites avec Borgbackup.
+
+_Installation_
+
+L'installation se fait avec 'sudo yum install mariadb-server' et ensuite nous lançons le script de sécurisation 'sudo mysql_secure_installation'
+
+Ensuite nous ajoutons un le depo MariaDB pour pouvoir installer le server et le client MariaDB. Pour ce faire nous créons le fichier MariaDB.repo dans yum.repos.
+
+Ensuite nous installons le Serveurs et le client MariaDB avec 'sudo yum install MariaDB-server MariaDB-client'
+
+Toujours autoriser les installations avec 'sudo systemctl enable mariadb' et les démarrer ensuite avec 'sudo systemctl startmariadb' et ensuite vérifier le status de l'installation avec 'sudo systemctl status mariadb'
+
+
 ## Zentyal
 
 _Présentation_

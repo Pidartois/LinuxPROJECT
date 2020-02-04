@@ -97,6 +97,11 @@ Le rebond SSH est là pour protéger les accès au serveur de back. Le rebond se
 
 ## Zentyal
 
+_Présentation_
+
+Zentyal est une plateforme clefs en main pour PME et TPE, qui permet la mise en place de différents services et rôles : Contrôleur de domaine, DNS, systèmes de partage de fichiers, pare-feu … 
+Ici nous utiliserons la plateforme en tant que serveur DNS, serveur DHCP pour les clients, contrôleur de domaine. Nous prendrons la version 6.1 de Zentyal, qui tourne sous ubuntu 18.04.
+
 _Installation_
 
 ![alt tag](https://user-images.githubusercontent.com/58468543/73642897-d7dca880-4672-11ea-8118-38c315dfee4c.png)
@@ -129,8 +134,34 @@ Ici on renseignera les noms d’hôtes des serveurs avec leur adresse IP. Nous p
 
 ![alt_tag](https://user-images.githubusercontent.com/58468543/73642947-eb880f00-4672-11ea-8cd3-e8cff1cbb1b7.png)
 
-### Configuration interfaces réseau
+_DHCP_
+
+![alt tag](https://user-images.githubusercontent.com/58468543/73642986-fd69b200-4672-11ea-986b-0929b0897f07.png)
+
+Configuration DHCP via les interfaces réseau du serveur. 1 Seule interface délivre le service DHCP, celle qui joint les clients.
+
+![alt_tag](https://user-images.githubusercontent.com/58468543/73643000-00fd3900-4673-11ea-9555-ef9b9284b8f6.png)
+
+
+Configuration d’une plage DHCP sur l’interface qui communiquera avec les clients. 
+
+![alt_tag](https://user-images.githubusercontent.com/58468543/73643009-035f9300-4673-11ea-8046-32d6ad918534.png)
+
+Configuration interfaces réseau
 
 ![alt_tag](https://user-images.githubusercontent.com/58468543/73642958-efb42c80-4672-11ea-9e76-e1007f9830c9.png)
 
+![alt_tag](https://user-images.githubusercontent.com/58468543/73642963-f2af1d00-4672-11ea-89fb-f1e540b26b66.png)
+
+Configuration interfaces réseau client
+
+![alt_tag](https://user-images.githubusercontent.com/58468543/73642963-f2af1d00-4672-11ea-89fb-f1e540b26b66.png)
+
+_SSH_
+
+![alt_tag](https://user-images.githubusercontent.com/58468543/73643021-08bcdd80-4673-11ea-89ea-789565c4300a.png)
+
+Le service SSH doit bien entendu être activé et exécuté  sur toutes les machines utilisées.
+Ici nous utiliserons la méthode via ProxCommand et l’activation de ForwardAgent, pour rebondir sur le serveur inline-ssh2 afin d’accèder au serveur inline-ssh3. L’agent gèrera le rebond de l’authentification entre le serveur cible (inline-ssh3) et la machine cliente (ici inline-ssh1).
+La variable %h nous permet d’indiquer le port (ici le port par défaut, 22). Le paramètre -W nous permet d’utiliser le netcat mode.	
 

@@ -109,7 +109,7 @@ Ensuite nous ajoutons un le depo MariaDB pour pouvoir installer le server et le 
 
 Ensuite nous installons le Serveurs et le client MariaDB avec **sudo yum install MariaDB-server MariaDB-client**
 
-Toujours autoriser les installations avec **sudo systemctl enable mariadb** et les démarrer ensuite avec **sudo systemctl startmariadb** et ensuite vérifier le status de l'installation avec <em>sudo systemctl status mariadb</em>
+Toujours autoriser les installations avec **sudo systemctl enable mariadb** et les démarrer ensuite avec **sudo systemctl startmariadb** et ensuite vérifier le status de l'installation avec **sudo systemctl status mariadb**
 
 
 ## Zentyal

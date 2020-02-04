@@ -112,3 +112,9 @@ _Installation_
   * -	1 carte réseau pour joindre les serveurs de l’infrastructure 
   
 ![alt tag](https://user-images.githubusercontent.com/58468543/73642909-dc08c600-4672-11ea-8498-16022cd49125.png)
+
+![alt tag](https://user-images.githubusercontent.com/58468543/73642918-df03b680-4672-11ea-9f0a-3ffca14bbfb9.png)
+
+![alt tag](https://user-images.githubusercontent.com/58468543/73642926-e32fd400-4672-11ea-8019-864b703ae1bc.png)
+
+![alt tag](https://user-images.githubusercontent.com/58468543/73642934-e6c35b00-4672-11ea-98ad-1c9caaf41850.png)

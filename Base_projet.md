@@ -103,13 +103,13 @@ L'outil MariaDB est là pour nous permettre de gérer la base de données qui va
 
 _Installation_
 
-L'installation se fait avec 'sudo yum install mariadb-server' et ensuite nous lançons le script de sécurisation <em>sudo mysql_secure_installation</em>
+L'installation se fait avec 'sudo yum install mariadb-server' et ensuite nous lançons le script de sécurisation **sudo mysql_secure_installation**
 
 Ensuite nous ajoutons un le depo MariaDB pour pouvoir installer le server et le client MariaDB. Pour ce faire nous créons le fichier MariaDB.repo dans yum.repos.
 
-Ensuite nous installons le Serveurs et le client MariaDB avec <em>sudo yum install MariaDB-server MariaDB-client</em>
+Ensuite nous installons le Serveurs et le client MariaDB avec **sudo yum install MariaDB-server MariaDB-client**
 
-Toujours autoriser les installations avec <em>sudo systemctl enable mariadb</em> et les démarrer ensuite avec <em>sudo systemctl startmariadb</em> et ensuite vérifier le status de l'installation avec <em>sudo systemctl status mariadb</em>
+Toujours autoriser les installations avec **sudo systemctl enable mariadb** et les démarrer ensuite avec **sudo systemctl startmariadb** et ensuite vérifier le status de l'installation avec <em>sudo systemctl status mariadb</em>
 
 
 ## Zentyal
